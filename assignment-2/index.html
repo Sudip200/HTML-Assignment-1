@@ -1,158 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Assignment 2</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-        text-align: center;
-      }
 
-      table {
-        width: 80%;
-        margin: 70px auto;
-        border-collapse: collapse;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Assignment 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
 
-      th,
-      td {
-        border: 2px solid black;
-        padding: 10px;
-        text-align: center;
-      }
-      .table1 td {
-        text-align: center;
-      }
+    table {
+      width: 80%;
+      margin: 70px auto;
+      border-collapse: collapse;
+    }
 
-      .table1 td:first-child {
-        text-align: left;
-      }
+    th,
+    td {
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+    }
 
-      .table1 td:last-child {
-        text-align: right;
-      }
-      .table4 tr:first-child td {
-        background-color: #4d6636;
-        height: 50px;
-      }
+    .table1 td {
+      text-align: center;
+    }
 
-      .table4 tr:last-child td {
-        background-color: #1e3352;
-        height: 50px;
-      }
-      .image-container {
-        width: 70%;
-      }
-      .image-container img {
-        height: 400px;
-        width: auto;
-      }
+    .table1 td:first-child {
+      text-align: left;
+    }
 
-      img {
-        width: 300px;
-        height: auto;
-        display: block;
-      }
-    </style>
-  </head>
-  <body>
-    <table class="table1">
-      <tr>
-        <td>left</td>
-        <td>center</td>
-        <td>right</td>
-      </tr>
-      <tr>
-        <td>left</td>
-        <td>center</td>
-        <td>right</td>
-      </tr>
-      <tr>
-        <td>left</td>
-        <td>center</td>
-        <td>right</td>
-      </tr>
-    </table>
+    .table1 td:last-child {
+      text-align: right;
+    }
 
-    <table>
-      <tr>
-        <th colspan="6">Heading</th>
-      </tr>
-      <tr>
-        <td colspan="6"></td>
-      </tr>
-      <tr>
-        <td rowspan="4"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td colspan="3" rowspan="2"></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td colspan="6"></td>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td rowspan="4"></td>
-        <td></td>
-        <td rowspan="4"></td>
-      </tr>
-      <tr>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <table class="table4">
-      <tr>
-        <td colspan="3"></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td class="image-container">
-          <img src="Capture.PNG" alt="Blue Frog" />
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td colspan="3"></td>
-      </tr>
-    </table>
-  </body>
+    .table4 tr:first-child td {
+      background-color: #4d6636;
+      height: 50px;
+    }
+
+    .table4 tr:last-child td {
+      background-color: #1e3352;
+      height: 50px;
+    }
+
+    .image-container {
+      width: 70%;
+    }
+
+    .image-container img {
+      height: 400px;
+      width: auto;
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <table class="table1">
+    <tr>
+      <td>left</td>
+      <td>center</td>
+      <td>right</td>
+    </tr>
+    <tr>
+      <td>left</td>
+      <td>center</td>
+      <td>right</td>
+    </tr>
+    <tr>
+      <td>left</td>
+      <td>center</td>
+      <td>right</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th colspan="6">Heading</th>
+    </tr>
+    <tr>
+      <td colspan="6"></td>
+    </tr>
+    <tr>
+      <td rowspan="4"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="3" rowspan="2"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="6"></td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="4"></td>
+      <td></td>
+      <td rowspan="4"></td>
+    </tr>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  <table class="table4">
+    <tr>
+      <td colspan="3"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="image-container">
+        <img src="Capture.PNG" alt="Blue Frog" />
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="3"></td>
+    </tr>
+  </table>
+</body>
+
 </html>
