@@ -20,6 +20,7 @@ td {
 
 .table1 td {
   text-align: center;
+  padding: 0;
 }
 
 .table1 td:first-child {
@@ -53,10 +54,5 @@ td {
 .image-container img {
   height: 400px;
   width: auto;
-}
-
-img {
-  width: 200px;
-  height: auto;
-  display: block;
+  float: left;
 }
